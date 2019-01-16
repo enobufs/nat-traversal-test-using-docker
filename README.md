@@ -15,7 +15,7 @@ CI testing.
 ## Configuration (proposed)
 
 The solution uses `Docker-in-Docker` technique to enable isolated virtual
-subments behind a NAT (based on iptables Docker uses) as shown below:
+subnets behind a NAT (based on iptables Docker uses) as shown below:
 
 
 ```
@@ -48,7 +48,7 @@ STUN server will be running on "WAN" container, and STUN client will be running 
 "APP" container.
 
 
-First, build three images: wan, midbox and vent.
+First, build three images: wan, midbox and vnet.
 ```
 make build
 ```
