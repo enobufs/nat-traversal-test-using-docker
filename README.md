@@ -93,7 +93,7 @@ Now, you can replace those docker files with your own application!
 
 
 ## Caveat / Consideration / TODO
-* Running docker daemon is generally not recommended.
+* Running docker daemon inside a container is generally not recommended. :pray:
 * Explore if this can be achieved using docker-compose.
 * Build&run takes some time. Consider using smaller base images.
 * The diagram above is not too accurate. (e.g. "Application" is a container). Fixed later.
