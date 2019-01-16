@@ -1,0 +1,4 @@
+*.sw[poe]
+*.tar
+*.log
+ifconfig.*
